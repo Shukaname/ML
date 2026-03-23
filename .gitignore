@@ -1,3 +1,5 @@
 *.csv
 *.DS_Store
 *.png
+*.mat
+__pycache__/*
