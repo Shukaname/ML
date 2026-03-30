@@ -1,5 +1,19 @@
-*.csv
-*.DS_Store
-*.png
-*.mat
+#ignores dataset
+*/data/*
+
+#ignores images
+*/images/*
+
+#ignores pycache
 __pycache__/*
+*.pyc
+*/.ipynb_checkpoints/*
+
+#ignores virtual environment
+.venv/
+
+#ignores .DS_store
+*.DS_Store
+
+#except the .gitkeep for file hierarchy
+!.gitkeep
