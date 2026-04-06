@@ -4,7 +4,6 @@ from matplotlib import pyplot
 
 sys.path.append('..')
 
-
 def mapFeature(X1, X2, degree=6):
     """
     Maps the two input features to quadratic features used in the regularization exercise.
@@ -32,7 +31,7 @@ def mapFeature(X1, X2, degree=6):
     if X1.ndim > 0:
         out = [np.ones(X1.shape[0])]
     else:
-        out = [np.ones(1)]
+        out = [1]
 
     for i in range(1, degree + 1):
         for j in range(i + 1):
@@ -67,7 +66,6 @@ def plotDecisionBoundary(plotData, theta, X, y):
     """
     # make sure theta is a numpy array
     theta = np.array(theta)
-
     # Plot Data (remember first column in X is the intercept)
     plotData(X[:, 1:3], y)
 
