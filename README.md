@@ -1,9 +1,10 @@
-This is a repository for our Machine Learning class.
-In this repo, you will find several practical work session on the following subject:
-  -Implementation of linear regression to estimate value from a given dataset
-  -Implementation of logistic regression to seperate data.
-  -Implementation of a neural network
-  -Implementation of a suport vector machine
-  -Implementation of principal component analysis
+Machine Learning - Course Projects
+This is a repository for my Machine Learning class. It contains several practical work sessions (TPs) covering the following subjects:
+
+* Linear Regression: Estimating values from a given dataset.
+* Logistic Regression: Binary and multiclass classification to separate data.
+* Neural Networks: Building and training a basic MLP.
+* Support Vector Machines (SVM): Finding the optimal hyperplanes.
+* Principal Component Analysis (PCA): Dimensionality reduction and data visualization.
 
 We would like to thank my professor, M Lorenzo Ortega, for the quality of the course materials and the guidance provided throughout these practical sessions.
